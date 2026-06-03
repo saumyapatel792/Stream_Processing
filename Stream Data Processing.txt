@@ -1,0 +1,17 @@
+# Library
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+# Random stream data generation
+
+stream_data  = [random.randint(1,1000) for i in range (50)]
+
+#Visualization 
+
+plt.plot(stream_data)
+plt.title("Stream Data Processing")
+plt.xlabel("Time")
+plt.ylabel("Value")
+plt.show()
